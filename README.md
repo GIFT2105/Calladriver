@@ -1,34 +1,20 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Nangu driver
+Our project is dedicated to revolutionizing the e-hailing industry with a unique and innovative approach. Unlike traditional ride-sharing services like Uber, our app focuses on providing users with a personalized driver for their own vehicles. This groundbreaking application aims to offer convenience, flexibility, and a tailored transportation experience for users in South Africa and beyond.
 
-## Getting Started
+Technologies Used in Our E-Hailing App Project
 
-First, run the development server:
+React: React is the core front-end library used to build the user interface of our e-hailing app. It enables the creation of dynamic and responsive user interfaces, making it an ideal choice for a modern web application.
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+Next.js: Next.js is a powerful framework built on top of React that provides server-side rendering, routing, and other performance optimizations. It enhances the user experience by improving page load times and SEO.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Redux: Redux is employed for state management within our application. It helps in managing complex application states and ensures data consistency across components.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+Tailwind CSS: Tailwind CSS is used for styling the app's user interface. It offers a utility-first approach, making it easy to create and maintain a consistent and visually appealing design.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+NextAuth: NextAuth is implemented for authentication and user management. It simplifies the process of integrating various authentication providers, including social logins and email/password authentication.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+Firebase: Firebase is utilized for various backend services, such as real-time database, authentication, and cloud functions. It offers a serverless architecture that is highly scalable and provides real-time data synchronization.
 
-## Learn More
+Mapbox API: Mapbox API is integrated to provide mapping and location-based services. It allows users to view maps, get directions, and track the real-time location of drivers.
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Material-UI: Material-UI components are utilized to enhance the app's user interface with pre-built, customizable UI elements following the Material Design guidelines. This ensures a polished and user-friendly look and feel.
